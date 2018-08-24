@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Item Picture Search Result</title>
+</head>
+<body>
+
+<h2>Submitted File</h2>
+<table>
+    <tr>
+        <td>OriginalFileName:</td>
+        <td><span th:text="${image.originalFilename}" /></td>
+    </tr>
+    <tr>
+        <td>Type:</td>
+        <td><span th:text="${image.contentType}" /></td>
+
+    </tr>
+</table>
+
+</body>
+</html>
